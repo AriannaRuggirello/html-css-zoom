@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding-right: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: black;
+    height: 100vh;
+    position: relative;
+}
+
+.avatar{
+    background-color: pink;
+    width: 80%;
+    margin: 0 auto;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50%);
+    
+}
