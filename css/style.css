@@ -22,14 +22,14 @@ ul{
 
 /* head icon rules */
 
-.head-icons{
+header{
     color: white;
     position: absolute;
     top: 10px;
     right: 0;
 }
 
-.head-icons span{
+header span{
     background-color: rgb(211, 211, 211,0.4);
     border-radius: 5px;
     padding: 5px;
@@ -38,12 +38,13 @@ ul{
 
 /* footer icon rules */
 
-.footer-icons-section{
+footer{
     background-color: grey;
     /* height:100px; */
     position:absolute;
     bottom: 0;
-    left:0;    
+    left:0;
+    display: flex;    
 }
 
 .footer-icons{
