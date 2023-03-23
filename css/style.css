@@ -20,7 +20,7 @@ ul{
     position: relative;
 }
 
-/* header rules */
+/* head icon rules */
 
 .head-icons{
     color: white;
@@ -36,11 +36,35 @@ ul{
     margin-right: 10px;
 }
 
+/* footer icon rules */
+
+.footer-icons-section{
+    background-color: grey;
+    /* height:100px; */
+    position:absolute;
+    bottom: 0;
+    left:0;    
+}
+
+.footer-icons{
+    display: flex;
+    align-items: center;
+
+}
+
+.icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10px;
+}
+
+
 /* main rules */
 main{    
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
-    height: 500px;
+    height: 450px;
     position: absolute;
     top: 50%;
     left: 50%;
