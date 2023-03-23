@@ -36,31 +36,6 @@ header span{
     margin-right: 10px;
 }
 
-/* footer icon rules */
-
-footer{
-    background-color: grey;
-    width: 100%;
-    position:absolute;
-    bottom: 0;
-    left:0;
-    display: flex;
-    justify-content: space-between;    
-}
-
-.footer-icons{
-    display: flex;
-    align-items: center;
-
-}
-
-.icon{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-right: 10px;
-}
-
 
 /* main rules */
 main{    
@@ -96,4 +71,35 @@ ul img{
     position: absolute;
     bottom: 10px;
     left: 0;
+}
+
+
+/* footer icon rules */
+
+footer{
+    background-color: grey;
+    width: 100%;
+    height: 50px;
+    position:absolute;
+    bottom: 0;
+    left:0;
+    display: flex;
+    justify-content: space-between;     
+}
+
+.footer-icons{
+    display: flex;
+    align-items: center;
+
+}
+
+.icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.space{
+    margin-left: 10px;
 }
