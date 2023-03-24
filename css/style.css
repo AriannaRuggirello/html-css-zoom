@@ -29,8 +29,11 @@ button{
 }
 
 /* header */
-
 header{
+    height: 60px;    
+}
+
+.header-icons{ 
     color: white;
     position: absolute;
     top: 10px;
@@ -46,16 +49,15 @@ header span{
 
 
 /* main rules */
-main{    
-    width: 90%;
-    margin: 0 auto;
-    height: 450px;
+main{ 
+    width: 90%;   
+    height: calc( 100%  - 130px );
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate( -50%, -50%);  
     overflow: auto; 
-    overflow-x :hidden;
+    
     
 }
 
